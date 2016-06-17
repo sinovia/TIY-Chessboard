@@ -6,16 +6,23 @@ body {
 
 .col-1-8 {
   width: 12.5%;
-  border: 1px solid #724f9e;
   height: 100px;
   text-align: center;
   vertical-align: center; }
 
 .a {
-  background-color: #724f9e; }
+  background-color: #c7bed3; }
 
 .b {
-  background-color: #c7bed3; }
+  background-color: #724f9e; }
+
+.content {
+  text-align: center;
+  padding: 10px;
+  margin-left: -55%; }
+
+.whiteicon {
+  color: #003366; }
 
 /*
   Simple Grid

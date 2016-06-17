@@ -1,6 +1,5 @@
-$primarycolor: #c7bed3;
-$secondarycolor: #724f9e;
-$iconcolor: #003366;
+$primarycolor: #724f9e;
+$secondarycolor: #c7bed3;
 
 body {
   background-color: white;
@@ -14,6 +13,7 @@ body {
 
 .col-1-8 {
 	width: 12.5%;
+  border: 1px solid $primarycolor;
   height: 100px;
   text-align: center;
   vertical-align: center;
@@ -27,14 +27,13 @@ body {
   background-color: $secondarycolor;
 }
 
-.content {
-  text-align: center;
-  padding: 10px;
-  margin-left: -55%;
+.icon {
+  font-size: 50px;
+  color: white;
 }
 
-.whiteicon {
-  color: $iconcolor;
+.flaticon-dalmatian {
+  color: white;
 }
 
 
