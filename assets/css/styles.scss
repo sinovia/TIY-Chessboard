@@ -8,8 +8,8 @@ body {
 
 .container{
   border: 1px dashed black;
-
-
+  margin-left:100px;
+  margin-right: 100px;
 }
 
 .col-1-8 {
@@ -17,24 +17,38 @@ body {
   height: 100px;
   text-align: center;
   vertical-align: center;
+  position: relative;
 }
 
-.a {
+.p {
   background-color: $primarycolor
 }
 
-.b {
+.s {
   background-color: $secondarycolor;
 }
 
 .content {
   text-align: center;
   padding: 10px;
-  margin-left: -55%;
+  margin-left: -180%;
+  z-index: -100;
 }
 
 .whiteicon {
   color: $iconcolor;
+}
+
+.firstMove
+{
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+i {
+  position: absolute;
+  z-index: 100;
 }
 
 

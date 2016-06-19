@@ -2,27 +2,41 @@ body {
   background-color: white; }
 
 .container {
-  border: 1px dashed black; }
+  border: 1px dashed black;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .col-1-8 {
   width: 12.5%;
   height: 100px;
   text-align: center;
-  vertical-align: center; }
+  vertical-align: center;
+  position: relative; }
 
-.a {
-  background-color: #c7bed3; }
+.p {
+  background-color: #c7bed3;
+}
 
-.b {
+.s {
   background-color: #724f9e; }
 
 .content {
   text-align: center;
   padding: 10px;
-  margin-left: -55%; }
+  margin-left: -180%;
+  z-index: -100; }
 
 .whiteicon {
   color: #003366; }
+
+.firstMove {
+  width: 100px;
+  height: 100px;
+  background-color: gray; }
+
+i {
+  position: absolute;
+  z-index: 100; }
 
 /*
   Simple Grid
