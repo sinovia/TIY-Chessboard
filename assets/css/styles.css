@@ -1,10 +1,36 @@
 body {
-  background-color: white; }
+  background-color: gray; }
 
-.container {
-  border: 1px dashed black;
-  margin-left: 100px;
-  margin-right: 100px; }
+.title {
+  font-family: 'Underdog', cursive;
+  font-size: 75px;
+  width: 100%;
+  text-align: center;
+  height: 80px; }
+
+.footerImage {
+  margin-left: 35%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex; }
+
+.controller {
+  margin-left: 30%; }
+
+.fa-paw {
+  color: black;
+  position: relative;
+  font-size: 12px; }
+
+.pawbar {
+  display: inline;
+  margin-top: 200px; }
+
+button {
+  font-family: 'Underdog', cursive;
+  font-color: white;
+  font-size: 25px;
+  border-radius: 15px; }
 
 .col-1-8 {
   width: 12.5%;
@@ -13,12 +39,52 @@ body {
   vertical-align: center;
   position: relative; }
 
+.rankandfileLetters {
+  margin-left: 20%;
+  margin-right: 19%;
+  position: absolute;
+  margin-bottom: 20px; }
+
+.letters {
+  padding-left: 55px;
+  padding-right: 65px;
+  font-size: 24px;
+  margin-left: 5px; }
+
+.rankandfileNumbers {
+  height: 800px;
+  width: 50px;
+  margin-left: 18%;
+  margin-top: 70px;
+  z-index: -100;
+  position: absolute; }
+
+.numbers {
+  display: block;
+  height: 80px;
+  font-size: 24px;
+  padding-top: 15px; }
+
+.rankandfileNumbersRight {
+  height: 800px;
+  width: 50px;
+  margin-left: 81%;
+  z-index: -100;
+  margin-top: -750px; }
+
+.numbersright {
+  display: block;
+  height: 80px;
+  font-size: 24px;
+  margin-left: 25px;
+  padding-top: 15px;
+  z-index: 1000; }
+
 .p {
-  background-color: #c7bed3;
-}
+  background-color: #c7bed3; }
 
 .s {
-  background-color: #724f9e; }
+  background-color: darkgray; }
 
 .content {
   text-align: center;
@@ -27,12 +93,7 @@ body {
   z-index: -100; }
 
 .whiteicon {
-  color: #003366; }
-
-.firstMove {
-  width: 100px;
-  height: 100px;
-  background-color: gray; }
+  color: #4f3e2e; }
 
 i {
   position: absolute;
@@ -67,7 +128,8 @@ i {
   min-width: 748px;
   /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 10px; }
 
 .grid:after {
   content: "";
@@ -75,7 +137,7 @@ i {
   clear: both; }
 
 .grid-pad {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-left: 20px;
   /* grid-space to left */
   padding-right: 0;
